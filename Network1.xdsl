@@ -3,43 +3,43 @@
 <smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
 	<nodes>
 		<cpt id="Cinomose_canina">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="Parvovirus_canino">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="Dirofilariose">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="Raiva">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="Doenca_de_Lyme">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="Traqueobronquite_infecciosa">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="Leptospirose">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="Doenca_renal">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Doente" />
+			<state id="Saudavel" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="olhos_escorrendo">
@@ -360,7 +360,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>1000 229 1052 261</position>
+				<position>1000 215 1086 261</position>
 			</node>
 		</genie>
 	</extensions>
