@@ -63,8 +63,8 @@
 		<cpt id="vomito">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina Parvovirus_canino Leptospirose</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Parvovirus_canino Leptospirose Doenca_renal</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="paralisia">
 			<state id="State0" />
@@ -93,8 +93,8 @@
 		<cpt id="perda_de_peso">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Parvovirus_canino Dirofilariose</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Parvovirus_canino Dirofilariose Doenca_renal</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="dificuldade_de_respirar">
 			<state id="State0" />
@@ -129,8 +129,8 @@
 		<cpt id="perda_de_apetite">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Doenca_de_Lyme</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<parents>Doenca_de_Lyme Doenca_renal</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="marcha_anormal">
 			<state id="State0" />
@@ -154,6 +154,12 @@
 			<state id="State0" />
 			<state id="State1" />
 			<parents>Leptospirose</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="urina_excessiva">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Doenca_renal</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
@@ -348,6 +354,13 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>939 290 991 322</position>
+			</node>
+			<node id="urina_excessiva">
+				<name>urina excessiva</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1000 229 1052 261</position>
 			</node>
 		</genie>
 	</extensions>
