@@ -51,8 +51,8 @@
 		<cpt id="febre">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina Parvovirus_canino Raiva</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Parvovirus_canino Raiva Doenca_de_Lyme</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="tosse">
 			<state id="State0" />
@@ -111,8 +111,8 @@
 		<cpt id="dores">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Raiva</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<parents>Raiva Doenca_de_Lyme</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="parestesia">
 			<state id="State0" />
@@ -124,6 +124,18 @@
 			<state id="State0" />
 			<state id="State1" />
 			<parents>Raiva</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="perda_de_apetite">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Doenca_de_Lyme</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="marcha_anormal">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Doenca_de_Lyme</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
@@ -283,6 +295,20 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>639 334 717 382</position>
+			</node>
+			<node id="perda_de_apetite">
+				<name>perda de apetite</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>739 199 828 254</position>
+			</node>
+			<node id="marcha_anormal">
+				<name>marcha anormal</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>634 159 722 214</position>
 			</node>
 		</genie>
 	</extensions>
