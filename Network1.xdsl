@@ -43,122 +43,122 @@
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="olhos_escorrendo">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Cinomose_canina</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="febre">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Cinomose_canina Parvovirus_canino Raiva Doenca_de_Lyme Leptospirose</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="tosse">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Cinomose_canina Dirofilariose Traqueobronquite_infecciosa</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="vomito">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Cinomose_canina Parvovirus_canino Leptospirose Doenca_renal</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="paralisia">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Cinomose_canina</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="apatia">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Parvovirus_canino Dirofilariose Traqueobronquite_infecciosa Leptospirose</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="diarreia">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Parvovirus_canino</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="desidratacao">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Parvovirus_canino Leptospirose</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="perda_de_peso">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Parvovirus_canino Dirofilariose Doenca_renal</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="dificuldade_de_respirar">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Dirofilariose</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="problemas_cardiovasculares">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Dirofilariose</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="dores">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Raiva Doenca_de_Lyme</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="parestesia">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Raiva</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="hiperatividade">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Raiva</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="perda_de_apetite">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Doenca_de_Lyme Doenca_renal</parents>
 			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="marcha_anormal">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Doenca_de_Lyme</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="engasgos">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Traqueobronquite_infecciosa</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="sensibilidade_muscular">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Leptospirose</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="ictericia">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Leptospirose</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="urina_excessiva">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="Possui" />
+			<state id="Livre" />
 			<parents>Doenca_renal</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
