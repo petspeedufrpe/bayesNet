@@ -57,8 +57,8 @@
 		<cpt id="tosse">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina Dirofilariose</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Dirofilariose Traqueobronquite_infecciosa</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="vomito">
 			<state id="State0" />
@@ -75,8 +75,8 @@
 		<cpt id="apatia">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Parvovirus_canino Dirofilariose</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Parvovirus_canino Dirofilariose Traqueobronquite_infecciosa</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="diarreia">
 			<state id="State0" />
@@ -136,6 +136,12 @@
 			<state id="State0" />
 			<state id="State1" />
 			<parents>Doenca_de_Lyme</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="engasgos">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Traqueobronquite_infecciosa</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
@@ -238,7 +244,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>391 352 437 380</position>
+				<position>644 268 690 296</position>
 			</node>
 			<node id="diarreia">
 				<name>diarreia</name>
@@ -309,6 +315,13 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>634 159 722 214</position>
+			</node>
+			<node id="engasgos">
+				<name>engasgos</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>637 437 699 475</position>
 			</node>
 		</genie>
 	</extensions>
