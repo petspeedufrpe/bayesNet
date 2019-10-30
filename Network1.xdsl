@@ -57,8 +57,8 @@
 		<cpt id="tosse">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Dirofilariose</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="vomito">
 			<state id="State0" />
@@ -75,8 +75,8 @@
 		<cpt id="apatia">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Parvovirus_canino</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<parents>Parvovirus_canino Dirofilariose</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="diarreia">
 			<state id="State0" />
@@ -93,7 +93,19 @@
 		<cpt id="perda_de_peso">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Parvovirus_canino</parents>
+			<parents>Parvovirus_canino Dirofilariose</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="dificuldade_de_respirar">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Dirofilariose</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="problemas_cardiovasculares">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Dirofilariose</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
@@ -160,7 +172,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>33 251 128 310</position>
+				<position>37 278 132 337</position>
 			</node>
 			<node id="febre">
 				<name>febre</name>
@@ -188,7 +200,8 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>230 336 286 371</position>
+				<position>159 352 215 387</position>
+				<barchart width="128" height="64" />
 			</node>
 			<node id="apatia">
 				<name>apatia</name>
@@ -217,6 +230,20 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>487 372 569 423</position>
+			</node>
+			<node id="dificuldade_de_respirar">
+				<name>dificuldade de respirar</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>532 277 611 326</position>
+			</node>
+			<node id="problemas_cardiovasculares">
+				<name>problemas cardiovasculares</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>461 216 566 281</position>
 			</node>
 		</genie>
 	</extensions>
