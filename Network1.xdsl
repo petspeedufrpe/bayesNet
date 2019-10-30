@@ -51,8 +51,8 @@
 		<cpt id="febre">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina Parvovirus_canino</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Parvovirus_canino Raiva</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="tosse">
 			<state id="State0" />
@@ -106,6 +106,24 @@
 			<state id="State0" />
 			<state id="State1" />
 			<parents>Dirofilariose</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="dores">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Raiva</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="parestesia">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Raiva</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="hiperatividade">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Raiva</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
@@ -172,35 +190,35 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>37 278 132 337</position>
+				<position>28 181 123 240</position>
 			</node>
 			<node id="febre">
 				<name>febre</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>376 289 421 317</position>
+				<position>370 301 415 329</position>
 			</node>
 			<node id="tosse">
 				<name>tosse</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>243 268 288 296</position>
+				<position>301 421 346 449</position>
 			</node>
 			<node id="vomito">
 				<name>vomito</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>313 305 361 335</position>
+				<position>296 347 344 377</position>
 			</node>
 			<node id="paralisia">
 				<name>paralisia</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>159 352 215 387</position>
+				<position>49 284 105 319</position>
 				<barchart width="128" height="64" />
 			</node>
 			<node id="apatia">
@@ -215,7 +233,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>386 450 438 482</position>
+				<position>137 199 189 231</position>
 			</node>
 			<node id="desidratacao">
 				<name>desidratacao</name>
@@ -244,6 +262,27 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>461 216 566 281</position>
+			</node>
+			<node id="dores">
+				<name>dores</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>722 282 768 310</position>
+			</node>
+			<node id="parestesia">
+				<name>parestesia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>746 383 822 430</position>
+			</node>
+			<node id="hiperatividade">
+				<name>hiperatividade</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>639 334 717 382</position>
 			</node>
 		</genie>
 	</extensions>
