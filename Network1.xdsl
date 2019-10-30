@@ -42,6 +42,36 @@
 			<state id="State1" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
+		<cpt id="olhos_escorrendo">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Cinomose_canina</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="febre">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Cinomose_canina</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="tosse">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Cinomose_canina</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="vomito">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Cinomose_canina</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="paralisia">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Cinomose_canina</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
 	</nodes>
 	<extensions>
 		<genie version="1.0" app="GeNIe 2.4.4217.0 ACADEMIC" name="Network1" faultnameformat="nodestate">
@@ -100,6 +130,41 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>956 89 1032 136</position>
+			</node>
+			<node id="olhos_escorrendo">
+				<name>olhos escorrendo</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>33 251 128 310</position>
+			</node>
+			<node id="febre">
+				<name>febre</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>156 265 201 293</position>
+			</node>
+			<node id="tosse">
+				<name>tosse</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>243 268 288 296</position>
+			</node>
+			<node id="vomito">
+				<name>vomito</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>41 347 89 377</position>
+			</node>
+			<node id="paralisia">
+				<name>paralisia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>230 336 286 371</position>
 			</node>
 		</genie>
 	</extensions>
