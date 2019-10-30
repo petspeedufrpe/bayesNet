@@ -2,46 +2,104 @@
 <!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
 <smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
 	<nodes>
-		<cpt id="Node1">
+		<cpt id="Cinomose_canina">
 			<state id="State0" />
 			<state id="State1" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
-		<cpt id="Node2">
+		<cpt id="Parvovirus_canino">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Node1</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.5 0.5</probabilities>
 		</cpt>
-		<cpt id="Node3">
+		<cpt id="Dirofilariose">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Node1</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Raiva">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Doenca_de_Lyme">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Traqueobronquite_infecciosa">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Leptospirose">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Doenca_renal">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
 	<extensions>
 		<genie version="1.0" app="GeNIe 2.4.4217.0 ACADEMIC" name="Network1" faultnameformat="nodestate">
-			<node id="Node1">
-				<name>Node1</name>
+			<node id="Cinomose_canina">
+				<name>Cinomose canina</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>431 241 479 271</position>
+				<position>98 83 191 141</position>
 			</node>
-			<node id="Node2">
-				<name>Node2</name>
+			<node id="Parvovirus_canino">
+				<name>Parvovirus canino</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>330 369 378 399</position>
+				<position>217 82 314 142</position>
 			</node>
-			<node id="Node3">
-				<name>Node3</name>
+			<node id="Dirofilariose">
+				<name>Dirofilariose</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>623 409 671 439</position>
+				<position>337 85 436 140</position>
+			</node>
+			<node id="Raiva">
+				<name>Raiva</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>459 87 557 138</position>
+			</node>
+			<node id="Doenca_de_Lyme">
+				<name>Doenca de Lyme</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>584 84 675 140</position>
+			</node>
+			<node id="Traqueobronquite_infecciosa">
+				<name>Traqueobronquite infecciosa</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>699 80 804 145</position>
+			</node>
+			<node id="Leptospirose">
+				<name>Leptospirose</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>835 89 910 135</position>
+			</node>
+			<node id="Doenca_renal">
+				<name>Doenca renal</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>956 89 1032 136</position>
 			</node>
 		</genie>
 	</extensions>
