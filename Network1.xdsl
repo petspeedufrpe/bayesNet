@@ -51,8 +51,8 @@
 		<cpt id="febre">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina Parvovirus_canino Raiva Doenca_de_Lyme</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Parvovirus_canino Raiva Doenca_de_Lyme Leptospirose</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="tosse">
 			<state id="State0" />
@@ -63,8 +63,8 @@
 		<cpt id="vomito">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina Parvovirus_canino</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Parvovirus_canino Leptospirose</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="paralisia">
 			<state id="State0" />
@@ -75,8 +75,8 @@
 		<cpt id="apatia">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Parvovirus_canino Dirofilariose Traqueobronquite_infecciosa</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>Parvovirus_canino Dirofilariose Traqueobronquite_infecciosa Leptospirose</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="diarreia">
 			<state id="State0" />
@@ -87,8 +87,8 @@
 		<cpt id="desidratacao">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Parvovirus_canino</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<parents>Parvovirus_canino Leptospirose</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="perda_de_peso">
 			<state id="State0" />
@@ -142,6 +142,18 @@
 			<state id="State0" />
 			<state id="State1" />
 			<parents>Traqueobronquite_infecciosa</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="sensibilidade_muscular">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Leptospirose</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="ictericia">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Leptospirose</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
@@ -322,6 +334,20 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>637 437 699 475</position>
+			</node>
+			<node id="sensibilidade_muscular">
+				<name>sensibilidade muscular</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>840 304 927 358</position>
+			</node>
+			<node id="ictericia">
+				<name>ictericia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>939 290 991 322</position>
 			</node>
 		</genie>
 	</extensions>
