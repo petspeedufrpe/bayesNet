@@ -170,197 +170,224 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>98 83 191 141</position>
+				<position>128 11 221 69</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Parvovirus_canino">
 				<name>Parvovirus canino</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>217 82 314 142</position>
+				<position>201 84 298 144</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Dirofilariose">
 				<name>Dirofilariose</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>337 85 436 140</position>
+				<position>267 13 366 68</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Raiva">
 				<name>Raiva</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>459 87 557 138</position>
+				<position>339 89 437 140</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Doenca_de_Lyme">
 				<name>Doenca de Lyme</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>584 84 675 140</position>
+				<position>483 86 574 142</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Traqueobronquite_infecciosa">
 				<name>Traqueobronquite infecciosa</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>699 80 804 145</position>
+				<position>406 8 511 73</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Leptospirose">
 				<name>Leptospirose</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>835 89 910 135</position>
+				<position>563 17 638 63</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="Doenca_renal">
 				<name>Doenca renal</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>956 89 1032 136</position>
+				<position>630 91 706 138</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="olhos_escorrendo">
 				<name>olhos escorrendo</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>28 181 123 240</position>
+				<position>93 511 188 570</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="febre">
 				<name>febre</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>370 301 415 329</position>
+				<position>257 296 302 324</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="tosse">
 				<name>tosse</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>301 421 346 449</position>
+				<position>257 372 302 400</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="vomito">
 				<name>vomito</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>296 347 344 377</position>
+				<position>116 449 164 479</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="paralisia">
 				<name>paralisia</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>49 284 105 319</position>
-				<barchart width="128" height="64" />
+				<position>112 369 168 404</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="apatia">
 				<name>apatia</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>644 268 690 296</position>
+				<position>534 372 580 400</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="diarreia">
 				<name>diarreia</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>137 199 189 231</position>
+				<position>114 294 166 326</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="desidratacao">
 				<name>desidratacao</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>465 421 540 467</position>
+				<position>242 517 317 563</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="perda_de_peso">
 				<name>perda de peso</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>487 372 569 423</position>
+				<position>238 439 320 490</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="dificuldade_de_respirar">
 				<name>dificuldade de respirar</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>532 277 611 326</position>
+				<position>379 362 458 411</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="problemas_cardiovasculares">
 				<name>problemas cardiovasculares</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>461 216 566 281</position>
+				<position>366 278 471 343</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="dores">
 				<name>dores</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>722 282 768 310</position>
+				<position>534 450 580 478</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="parestesia">
 				<name>parestesia</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>746 383 822 430</position>
+				<position>519 517 595 564</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="hiperatividade">
 				<name>hiperatividade</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>639 334 717 382</position>
+				<position>379 440 457 488</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="perda_de_apetite">
 				<name>perda de apetite</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>739 199 828 254</position>
+				<position>652 283 741 338</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="marcha_anormal">
 				<name>marcha anormal</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>634 159 722 214</position>
+				<position>513 283 601 338</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="engasgos">
 				<name>engasgos</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>637 437 699 475</position>
+				<position>386 521 448 559</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="sensibilidade_muscular">
 				<name>sensibilidade muscular</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>840 304 927 358</position>
+				<position>653 359 740 413</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="ictericia">
 				<name>ictericia</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>939 290 991 322</position>
+				<position>670 448 722 480</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 			<node id="urina_excessiva">
 				<name>urina excessiva</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>1000 215 1086 261</position>
+				<position>653 517 739 563</position>
+				<barchart active="true" width="128" height="64" />
 			</node>
 		</genie>
 	</extensions>
