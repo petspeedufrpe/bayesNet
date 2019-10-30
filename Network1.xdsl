@@ -51,8 +51,8 @@
 		<cpt id="febre">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Parvovirus_canino</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="tosse">
 			<state id="State0" />
@@ -63,13 +63,37 @@
 		<cpt id="vomito">
 			<state id="State0" />
 			<state id="State1" />
-			<parents>Cinomose_canina</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<parents>Cinomose_canina Parvovirus_canino</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="paralisia">
 			<state id="State0" />
 			<state id="State1" />
 			<parents>Cinomose_canina</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="apatia">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Parvovirus_canino</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="diarreia">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Parvovirus_canino</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="desidratacao">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Parvovirus_canino</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="perda_de_peso">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Parvovirus_canino</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
 	</nodes>
@@ -143,7 +167,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>156 265 201 293</position>
+				<position>376 289 421 317</position>
 			</node>
 			<node id="tosse">
 				<name>tosse</name>
@@ -157,7 +181,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>41 347 89 377</position>
+				<position>313 305 361 335</position>
 			</node>
 			<node id="paralisia">
 				<name>paralisia</name>
@@ -165,6 +189,34 @@
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
 				<position>230 336 286 371</position>
+			</node>
+			<node id="apatia">
+				<name>apatia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>391 352 437 380</position>
+			</node>
+			<node id="diarreia">
+				<name>diarreia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>386 450 438 482</position>
+			</node>
+			<node id="desidratacao">
+				<name>desidratacao</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>465 421 540 467</position>
+			</node>
+			<node id="perda_de_peso">
+				<name>perda de peso</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>487 372 569 423</position>
 			</node>
 		</genie>
 	</extensions>
