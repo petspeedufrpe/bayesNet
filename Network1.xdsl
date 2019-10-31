@@ -5,27 +5,27 @@
 		<cpt id="olhos_escorrendo">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="febre">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="tosse">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="vomito">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="paralisia">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Cinomose_canina">
 			<state id="Doente" />
@@ -36,22 +36,22 @@
 		<cpt id="apatia">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="diarreia">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="desidratacao">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="perda_de_peso">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Parvovirus_canino">
 			<state id="Doente" />
@@ -62,12 +62,12 @@
 		<cpt id="dificuldade_de_respirar">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="problemas_cardiovasculares">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Dirofilariose">
 			<state id="Doente" />
@@ -78,17 +78,17 @@
 		<cpt id="dores">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="parestesia">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="hiperatividade">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Raiva">
 			<state id="Doente" />
@@ -99,12 +99,12 @@
 		<cpt id="perda_de_apetite">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="marcha_anormal">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Doenca_de_Lyme">
 			<state id="Doente" />
@@ -115,7 +115,7 @@
 		<cpt id="engasgos">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Traqueobronquite_infecciosa">
 			<state id="Doente" />
@@ -126,12 +126,12 @@
 		<cpt id="sensibilidade_muscular">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="ictericia">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Leptospirose">
 			<state id="Doente" />
@@ -142,7 +142,7 @@
 		<cpt id="urina_excessiva">
 			<state id="Possui" />
 			<state id="Livre" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.09999999999999998 0.9</probabilities>
 		</cpt>
 		<cpt id="Doenca_renal">
 			<state id="Doente" />
