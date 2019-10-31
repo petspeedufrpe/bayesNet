@@ -121,7 +121,7 @@
 			<state id="Doente" />
 			<state id="Saudavel" />
 			<parents>tosse apatia engasgos</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>1 0 0.6666666666666666 0.3333333333333334 0.6666666666666666 0.3333333333333334 0.3333333333333333 0.6666666666666667 0.6666666666666666 0.3333333333333334 0.3333333333333333 0.6666666666666667 0.3333333333333333 0.6666666666666667 0 1</probabilities>
 		</cpt>
 		<cpt id="sensibilidade_muscular">
 			<state id="Possui" />
