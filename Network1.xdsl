@@ -148,7 +148,7 @@
 			<state id="Doente" />
 			<state id="Saudavel" />
 			<parents>perda_de_peso urina_excessiva perda_de_apetite vomito</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>1 0 0.75 0.25 0.75 0.25 0.5 0.5 0.75 0.25 0.5 0.5 0.5 0.5 0.25 0.75 0.75 0.25 0.5 0.5 0.5 0.5 0.25 0.75 0.5 0.5 0.25 0.75 0.25 0.75 0 1</probabilities>
 		</cpt>
 	</nodes>
 	<extensions>
